@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Linkedin, Twitter, Github, Instagram } from "lucide-react";
+import { Linkedin, Twitter, Instagram, Phone } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import GrokInput from "./ui/grok-input";
@@ -73,7 +73,6 @@ export default function Footer() {
                             <Link href="/features" className="text-white/40 hover:text-vercedo-blue transition-colors">Features</Link>
                             <Link href="/solutions" className="text-white/40 hover:text-vercedo-blue transition-colors">Solutions</Link>
                             <Link href="/pricing" className="text-white/40 hover:text-vercedo-blue transition-colors">Pricing</Link>
-                            <Link href="/changelog" className="text-white/40 hover:text-vercedo-blue transition-colors">Changelog</Link>
                         </div>
                         <div className="flex flex-col gap-4">
                             <h4 className="font-medium text-white">Company</h4>
@@ -84,10 +83,7 @@ export default function Footer() {
                         </div>
                         <div className="flex flex-col gap-4">
                             <h4 className="font-medium text-white">Resources</h4>
-                            <Link href="/docs" className="text-white/40 hover:text-vercedo-blue transition-colors">Documentation</Link>
-                            <Link href="/api" className="text-white/40 hover:text-vercedo-blue transition-colors">API Reference</Link>
                             <Link href="/community" className="text-white/40 hover:text-vercedo-blue transition-colors">Community</Link>
-                            <Link href="/status" className="text-white/40 hover:text-vercedo-blue transition-colors">System Status</Link>
                         </div>
                         <div className="flex flex-col gap-4">
                             <h4 className="font-medium text-white">Legal</h4>
@@ -104,17 +100,17 @@ export default function Footer() {
                         © 2025 Vercedo Inc. All rights reserved.
                     </p>
                     <div className="flex items-center gap-6">
-                        <a href="#" className="text-white/40 hover:text-white transition-colors">
+                        <a href="https://x.com/vercedoAI" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
                             <Twitter className="w-5 h-5" />
                         </a>
-                        <a href="#" className="text-white/40 hover:text-white transition-colors">
-                            <Github className="w-5 h-5" />
-                        </a>
-                        <a href="#" className="text-white/40 hover:text-white transition-colors">
+                        <a href="https://www.linkedin.com/company/vercedo" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
                             <Linkedin className="w-5 h-5" />
                         </a>
-                        <a href="#" className="text-white/40 hover:text-white transition-colors">
+                        <a href="https://www.instagram.com/vercedo.ai/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
                             <Instagram className="w-5 h-5" />
+                        </a>
+                        <a href="https://wa.me/+919468121881" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
+                            <Phone className="w-5 h-5" />
                         </a>
                     </div>
                 </div>
