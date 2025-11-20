@@ -30,7 +30,7 @@ export default function CareersPage() {
                         transition={{ duration: 0.8, delay: 0.1 }}
                         className="text-xl text-white/60 max-w-2xl mx-auto mb-12"
                     >
-                        We're building the future of Real Estate intelligence.
+                        We&apos;re building the future of Real Estate intelligence.
                         Help us empower investors with data-driven insights.
                     </motion.p>
                 </div>
@@ -105,7 +105,7 @@ export default function CareersPage() {
                             className="text-center py-12 border border-dashed border-white/10 rounded-2xl"
                         >
                             <p className="text-white/40">
-                                Don't see a role that fits? <Link href="mailto:careers@vercedo.com" className="text-vercedo-blue hover:underline">Email us</Link> your resume.
+                                Don&apos;t see a role that fits? <Link href="mailto:careers@vercedo.com" className="text-vercedo-blue hover:underline">Email us</Link> your resume.
                             </p>
                         </motion.div>
                     </div>
